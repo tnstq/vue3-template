@@ -9,4 +9,8 @@ export default defineConfig({
       '@': resolve(__dirname, 'src') // 设置 `@` 指向 `src` 目录
     }
   },
+  server: {
+    port: 3000, // 设置服务启动端口号
+    open: true, // 设置服务启动时是否自动打开浏览器
+  }
 })
